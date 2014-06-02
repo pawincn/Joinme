@@ -1,18 +1,18 @@
 //
-//  BWFirstViewController.m
+//  BWActivitiesViewController.m
 //  Joinme
 //
 //  Created by bwang on 5/27/14.
 //  Copyright (c) 2014 bwang. All rights reserved.
 //
 
-#import "BWFirstViewController.h"
+#import "BWActivitiesViewController.h"
 
-@interface BWFirstViewController ()
+@interface BWActivitiesViewController ()
 
 @end
 
-@implementation BWFirstViewController
+@implementation BWActivitiesViewController
 
 - (void)viewDidLoad
 {

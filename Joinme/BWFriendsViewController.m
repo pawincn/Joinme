@@ -1,18 +1,18 @@
 //
-//  BWSecondViewController.m
+//  BWFriendsViewController.m
 //  Joinme
 //
 //  Created by bwang on 5/27/14.
 //  Copyright (c) 2014 bwang. All rights reserved.
 //
 
-#import "BWSecondViewController.h"
+#import "BWFriendsViewController.h"
 
-@interface BWSecondViewController ()
+@interface BWFriendsViewController ()
 
 @end
 
-@implementation BWSecondViewController
+@implementation BWFriendsViewController
 
 - (void)viewDidLoad
 {

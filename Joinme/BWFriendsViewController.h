@@ -1,5 +1,5 @@
 //
-//  BWFirstViewController.h
+//  BWFriendsViewController.h
 //  Joinme
 //
 //  Created by bwang on 5/27/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BWFirstViewController : UIViewController
+@interface BWFriendsViewController : UIViewController
 
 @end

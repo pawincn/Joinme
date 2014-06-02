@@ -14,14 +14,16 @@
 		25434BD21934975B00D1AA52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25434BD11934975B00D1AA52 /* main.m */; };
 		25434BD61934975B00D1AA52 /* BWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25434BD51934975B00D1AA52 /* BWAppDelegate.m */; };
 		25434BD91934975B00D1AA52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25434BD71934975B00D1AA52 /* Main.storyboard */; };
-		25434BDC1934975B00D1AA52 /* BWFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25434BDB1934975B00D1AA52 /* BWFirstViewController.m */; };
-		25434BDF1934975B00D1AA52 /* BWSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25434BDE1934975B00D1AA52 /* BWSecondViewController.m */; };
+		25434BDC1934975B00D1AA52 /* BWActivitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25434BDB1934975B00D1AA52 /* BWActivitiesViewController.m */; };
+		25434BDF1934975B00D1AA52 /* BWFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25434BDE1934975B00D1AA52 /* BWFriendsViewController.m */; };
 		25434BE11934975B00D1AA52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25434BE01934975B00D1AA52 /* Images.xcassets */; };
 		25434BE81934975B00D1AA52 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25434BE71934975B00D1AA52 /* XCTest.framework */; };
 		25434BE91934975B00D1AA52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25434BC51934975B00D1AA52 /* Foundation.framework */; };
 		25434BEA1934975B00D1AA52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25434BC91934975B00D1AA52 /* UIKit.framework */; };
 		25434BF21934975B00D1AA52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25434BF01934975B00D1AA52 /* InfoPlist.strings */; };
 		25434BF41934975B00D1AA52 /* JoinmeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25434BF31934975B00D1AA52 /* JoinmeTests.m */; };
+		259E01DD193C44ED0083EB18 /* BWActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 259E01DC193C44ED0083EB18 /* BWActivity.m */; };
+		259E01E0193CB7020083EB18 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259E01DF193CB7020083EB18 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +48,19 @@
 		25434BD41934975B00D1AA52 /* BWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWAppDelegate.h; sourceTree = "<group>"; };
 		25434BD51934975B00D1AA52 /* BWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWAppDelegate.m; sourceTree = "<group>"; };
 		25434BD81934975B00D1AA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		25434BDA1934975B00D1AA52 /* BWFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWFirstViewController.h; sourceTree = "<group>"; };
-		25434BDB1934975B00D1AA52 /* BWFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWFirstViewController.m; sourceTree = "<group>"; };
-		25434BDD1934975B00D1AA52 /* BWSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWSecondViewController.h; sourceTree = "<group>"; };
-		25434BDE1934975B00D1AA52 /* BWSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWSecondViewController.m; sourceTree = "<group>"; };
+		25434BDA1934975B00D1AA52 /* BWActivitiesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWActivitiesViewController.h; sourceTree = "<group>"; };
+		25434BDB1934975B00D1AA52 /* BWActivitiesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWActivitiesViewController.m; sourceTree = "<group>"; };
+		25434BDD1934975B00D1AA52 /* BWFriendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWFriendsViewController.h; sourceTree = "<group>"; };
+		25434BDE1934975B00D1AA52 /* BWFriendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWFriendsViewController.m; sourceTree = "<group>"; };
 		25434BE01934975B00D1AA52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		25434BE61934975B00D1AA52 /* JoinmeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoinmeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25434BE71934975B00D1AA52 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		25434BEF1934975B00D1AA52 /* JoinmeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JoinmeTests-Info.plist"; sourceTree = "<group>"; };
 		25434BF11934975B00D1AA52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25434BF31934975B00D1AA52 /* JoinmeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoinmeTests.m; sourceTree = "<group>"; };
+		259E01DB193C44ED0083EB18 /* BWActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWActivity.h; sourceTree = "<group>"; };
+		259E01DC193C44ED0083EB18 /* BWActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWActivity.m; sourceTree = "<group>"; };
+		259E01DF193CB7020083EB18 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				259E01E0193CB7020083EB18 /* CoreLocation.framework in Frameworks */,
 				25434BC81934975B00D1AA52 /* CoreGraphics.framework in Frameworks */,
 				25434BCA1934975B00D1AA52 /* UIKit.framework in Frameworks */,
 				25434BC61934975B00D1AA52 /* Foundation.framework in Frameworks */,
@@ -104,6 +110,7 @@
 		25434BC41934975B00D1AA52 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				259E01DF193CB7020083EB18 /* CoreLocation.framework */,
 				25434BC51934975B00D1AA52 /* Foundation.framework */,
 				25434BC71934975B00D1AA52 /* CoreGraphics.framework */,
 				25434BC91934975B00D1AA52 /* UIKit.framework */,
@@ -115,13 +122,15 @@
 		25434BCB1934975B00D1AA52 /* Joinme */ = {
 			isa = PBXGroup;
 			children = (
+				259E01DB193C44ED0083EB18 /* BWActivity.h */,
+				259E01DC193C44ED0083EB18 /* BWActivity.m */,
 				25434BD41934975B00D1AA52 /* BWAppDelegate.h */,
 				25434BD51934975B00D1AA52 /* BWAppDelegate.m */,
 				25434BD71934975B00D1AA52 /* Main.storyboard */,
-				25434BDA1934975B00D1AA52 /* BWFirstViewController.h */,
-				25434BDB1934975B00D1AA52 /* BWFirstViewController.m */,
-				25434BDD1934975B00D1AA52 /* BWSecondViewController.h */,
-				25434BDE1934975B00D1AA52 /* BWSecondViewController.m */,
+				25434BDA1934975B00D1AA52 /* BWActivitiesViewController.h */,
+				25434BDB1934975B00D1AA52 /* BWActivitiesViewController.m */,
+				25434BDD1934975B00D1AA52 /* BWFriendsViewController.h */,
+				25434BDE1934975B00D1AA52 /* BWFriendsViewController.m */,
 				25434BE01934975B00D1AA52 /* Images.xcassets */,
 				25434BCC1934975B00D1AA52 /* Supporting Files */,
 			);
@@ -255,10 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25434BDC1934975B00D1AA52 /* BWFirstViewController.m in Sources */,
+				25434BDC1934975B00D1AA52 /* BWActivitiesViewController.m in Sources */,
 				25434BD21934975B00D1AA52 /* main.m in Sources */,
+				259E01DD193C44ED0083EB18 /* BWActivity.m in Sources */,
 				25434BD61934975B00D1AA52 /* BWAppDelegate.m in Sources */,
-				25434BDF1934975B00D1AA52 /* BWSecondViewController.m in Sources */,
+				25434BDF1934975B00D1AA52 /* BWFriendsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +473,7 @@
 				25434BF91934975B00D1AA52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25434BFA1934975B00D1AA52 /* Build configuration list for PBXNativeTarget "JoinmeTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +482,7 @@
 				25434BFC1934975B00D1AA52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

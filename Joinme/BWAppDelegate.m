@@ -4,6 +4,7 @@
 //
 //  Created by bwang on 5/27/14.
 //  Copyright (c) 2014 bwang. All rights reserved.
+//  Today is Kid's day, 2014. My son is 2.5 years old.
 //
 
 #import "BWAppDelegate.h"

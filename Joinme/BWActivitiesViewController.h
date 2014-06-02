@@ -1,5 +1,5 @@
 //
-//  BWSecondViewController.h
+//  BWActivitiesViewController.h
 //  Joinme
 //
 //  Created by bwang on 5/27/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BWSecondViewController : UIViewController
+@interface BWActivitiesViewController : UIViewController
 
 @end
