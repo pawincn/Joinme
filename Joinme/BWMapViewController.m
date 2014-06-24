@@ -18,7 +18,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        // Custom initialization        
     }
     return self;
 }
@@ -27,6 +27,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [MAMapServices sharedServices].apiKey = @"bcb6e62439103939fb16ca2d9036368a";
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,10 +36,29 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.mapView = [[MAMapView alloc] initWithFrame: CGRectMake(0, 0, 320, 460)];
+    self.mapView.delegate = self;
+    [self.view addSubview:self.mapView];
+    [self.mapView addObserver:self forKeyPath:@"showsUserLocation" options:NSKeyValueObservingOptionNew context:nil];
+}
+
 - (void)viewDidAppear:(BOOL)animated
 {
-    [super viewDidAppear:<#animated#>];
-    self.map
+    [super viewDidAppear:animated];
+    self.mapView.showsUserLocation = YES;
+}
+
+- (void)modeAction
+{
+    [self.mapView setUserTrackingMode:MAUserTrackingModeFollow animated:YES];
+}
+
+- (void)mapView:(MAMapView *)mapView didUpdateUserLocation:(MAUserLocation *)userLocation updatingLocation:(BOOL)updatingLocation
+{
+    self.mapView.centerCoordinate = userLocation.location.coordinate;
 }
 
 /*

@@ -34,6 +34,7 @@
 		25FAFDBD1951E70A0075FC69 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FAFDBC1951E70A0075FC69 /* Security.framework */; };
 		25FAFDBF1951E7710075FC69 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 25FAFDBE1951E7710075FC69 /* AMap.bundle */; };
 		25FAFDC01951E7710075FC69 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 25FAFDBE1951E7710075FC69 /* AMap.bundle */; };
+		25FAFDC21951F5130075FC69 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FAFDC11951F5130075FC69 /* AMapSearchKit.framework */; };
 		25FCADC119508FD70025250A /* BWMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FCADC019508FD70025250A /* BWMapViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,7 @@
 		25FAFDBA1951E7010075FC69 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		25FAFDBC1951E70A0075FC69 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		25FAFDBE1951E7710075FC69 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		25FAFDC11951F5130075FC69 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapSearchKit.framework; path = ../../Downloads/join/AMap_iOS_API_Lib_V2.2.1/Search/AMapSearchKit.framework; sourceTree = "<group>"; };
 		25FCADBF19508FD70025250A /* BWMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMapViewController.h; sourceTree = "<group>"; };
 		25FCADC019508FD70025250A /* BWMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWMapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25FAFDC21951F5130075FC69 /* AMapSearchKit.framework in Frameworks */,
 				25FAFDB51951E6BB0075FC69 /* CoreTelephony.framework in Frameworks */,
 				25FAFDB31951E6B00075FC69 /* SystemConfiguration.framework in Frameworks */,
 				25FAFDBD1951E70A0075FC69 /* Security.framework in Frameworks */,
@@ -150,6 +153,7 @@
 		25434BC41934975B00D1AA52 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				25FAFDC11951F5130075FC69 /* AMapSearchKit.framework */,
 				25FAFDBC1951E70A0075FC69 /* Security.framework */,
 				25FAFDBA1951E7010075FC69 /* libstdc++.6.0.9.dylib */,
 				25FAFDB81951E6EE0075FC69 /* OpenGLES.framework */,
@@ -457,6 +461,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/bwang/Downloads/join/AMap_iOS_API_Lib_V2.2.1/3D,
+					/Users/bwang/Downloads/join/AMap_iOS_API_Lib_V2.2.1/Search,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Joinme/Joinme-Prefix.pch";
@@ -483,6 +488,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/bwang/Downloads/join/AMap_iOS_API_Lib_V2.2.1/3D,
+					/Users/bwang/Downloads/join/AMap_iOS_API_Lib_V2.2.1/Search,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Joinme/Joinme-Prefix.pch";
