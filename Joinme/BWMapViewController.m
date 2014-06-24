@@ -42,7 +42,7 @@
     self.mapView = [[MAMapView alloc] initWithFrame: CGRectMake(0, 0, 320, 460)];
     self.mapView.delegate = self;
     [self.view addSubview:self.mapView];
-    [self.mapView addObserver:self forKeyPath:@"showsUserLocation" options:NSKeyValueObservingOptionNew context:nil];
+    //[self.mapView addObserver:self forKeyPath:@"showsUserLocation" options:NSKeyValueObservingOptionNew context:nil];
 }
 
 - (void)viewDidAppear:(BOOL)animated
